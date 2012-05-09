@@ -1,6 +1,6 @@
 # monitjs
 
-A node.js client library for the Monit.
+A node.js client library for interacting with Monit (and converts Monits XML responses into JSON).
 
 _Copyright 2012, FeedHenry Ltd. Licensed under the
 MIT license, please see the LICENSE file.  All rights reserved._
