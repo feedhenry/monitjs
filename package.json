@@ -1,7 +1,7 @@
 {
   "name": "monitjs",
   "description": "Node.js client for Monit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Damian Beresford <Damian.Beresford@feedhenry.com>",
   "directories": {
     "lib": "lib"
