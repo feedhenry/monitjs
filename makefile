@@ -27,6 +27,7 @@ dist: npm_deps
 	cp -r ./lib $(OUTPUT_DIR)/$(RELEASE_DIR)
 	cp ./package.json $(OUTPUT_DIR)/$(RELEASE_DIR)
 	cp ./npm-shrinkwrap.json $(OUTPUT_DIR)/$(RELEASE_DIR)
+	cp ./README.md $(OUTPUT_DIR)/$(RELEASE_DIR)
 	tar -czf $(DIST_DIR)/$(RELEASE_FILE) -C $(OUTPUT_DIR) $(RELEASE_DIR)
 
 npm_deps:
