@@ -22,9 +22,11 @@ test:
 
 dist: npm_deps
 	rm -rf $(DIST_DIR) $(OUTPUT_DIR)
+	npm shrinkwrap
 	mkdir -p $(DIST_DIR) $(OUTPUT_DIR)/$(RELEASE_DIR)
 	cp -r ./lib $(OUTPUT_DIR)/$(RELEASE_DIR)
 	cp ./package.json $(OUTPUT_DIR)/$(RELEASE_DIR)
+	cp ./npm-shrinkwrap.json $(OUTPUT_DIR)/$(RELEASE_DIR)
 	tar -czf $(DIST_DIR)/$(RELEASE_FILE) -C $(OUTPUT_DIR) $(RELEASE_DIR)
 
 npm_deps:
