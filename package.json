@@ -6,13 +6,14 @@
   "directories": {
     "lib": "lib"
   },
-  "main" : "./lib/monitjs.js",
+  "main": "./lib/monitjs.js",
   "engines": {
     "node": "*"
   },
-  "dependencies" : {
-    "async" : "0.1.22",
-    "request" : "2.21.0",
-    "xml2js" : "0.1.14"
-  }
+  "dependencies": {
+    "async": "0.1.22",
+    "request": "2.21.0",
+    "xml2js": "0.1.14"
+  },
+  "license": "MIT"
 }
