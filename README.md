@@ -11,7 +11,7 @@ MIT license, please see the LICENSE file.  All rights reserved._
 ## Example usage
 
     var monitjs = require('monitjs');
-    var monit = new monitjs.Monit('http://admin:monit@localhost:28122');
+    var monit = new monitjs.Monit('http://admin:monit@localhost:2812');
     
     // get status of all services
     monit.status(function(err, data) {
