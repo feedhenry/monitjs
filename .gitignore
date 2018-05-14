@@ -7,3 +7,4 @@ node_modules/
 nohup.out
 test/config.json
 test/tmp.js
+*.idea/
