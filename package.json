@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "async": "0.1.22",
-    "request": "2.21.0",
+    "request": "2.85.0",
     "xml2js": "0.1.14"
   },
   "license": "MIT"
